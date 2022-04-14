@@ -1,0 +1,5 @@
+.quote-list {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-gap: 1rem;
+}

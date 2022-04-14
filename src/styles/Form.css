@@ -1,0 +1,65 @@
+.form-container {
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-container * {
+  margin: 0.5rem 0;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6e6b7b;
+}
+
+#quote,
+#author {
+  width: 100%;
+  border: 1px solid #aaa8b1;
+  margin-top: 0.125rem;
+  border-radius: 0.25rem;
+}
+
+#quote {
+  resize: none;
+}
+
+#author {
+  height: 2rem;
+}
+
+.submit-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #6e6b7b;
+  letter-spacing: 2px;
+  font-weight: 400 !important;
+  color: #fff;
+  text-align: center;
+  border: 0px;
+  width: max-content;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.validation-message {
+  color: rgb(170, 125, 125);
+  font-size: 0.825rem;
+  padding-left: 0.25rem;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
